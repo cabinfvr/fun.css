@@ -1,0 +1,74 @@
+/* Global styles */
+html {
+  background-color: #000;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 20px; /* Added padding to the body */
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #000, #333); /* Utilized gradients */
+}
+
+/* Typography */
+blockquote {
+  background-color: #333;
+  border-left: 4px solid #fff;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+}
+
+/* Lists */
+ul, ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Dark mode */
+html[data-theme="dark"] {
+  background-color: #000;
+  color: #fff;
+}
+
+[data-theme="dark"] blockquote {
+  background-color: #444;
+  border-color: #fff;
+}
+
+[data-theme="dark"] .navbar {
+  background-color: #444;
+}
+
+[data-theme="dark"] .footer {
+  background-color: #444;
+  color: #fff;
+}
