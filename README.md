@@ -27,7 +27,7 @@ To use `Fun.css`, follow these steps:
 
 ## Examples
 
-Check out the [demo webpage](https://cabinfvr.github.io/demo.html) to see \`Fun.css\` in action.
+Check out the [demo webpage](https://cabinfvr.github.io/fun.css/demo.html) to see `Fun.css` in action.
 
 ## Contributions
 
